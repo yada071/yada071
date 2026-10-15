@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title description">
+  <title id="title">Pedro Yada</title>
+  <desc id="description">Backend Development · AI Agents. Gradiente preto e verde, tipografia clara e uma rede de componentes conectados com luz em movimento suave.</desc>
+  <style>
+    .signal { stroke-dasharray: 16 220; animation: signal 18s linear infinite; }
+    .ambient { animation: ambient 9s ease-in-out infinite; }
+    @keyframes signal { to { stroke-dashoffset: -472; } }
+    @keyframes ambient { 0%,100% { opacity: .45; } 50% { opacity: .85; } }
+    @media (prefers-reduced-motion: reduce) { .signal,.ambient { animation: none; } }
+  </style>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="0.65">
+      <stop offset="0" stop-color="#090d0b" />
+      <stop offset="0.55" stop-color="#0c1913" />
+      <stop offset="1" stop-color="#164532" />
+    </linearGradient>
+    <radialGradient id="light" cx="0.95" cy="0.05" r="0.9">
+      <stop offset="0" stop-color="#57d69c" stop-opacity="0.18" />
+      <stop offset="1" stop-color="#53856a" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#79b896" />
+      <stop offset="1" stop-color="#79b896" stop-opacity="0.15" />
+    </linearGradient>
+    <linearGradient id="leftAccent" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#84d7ad" stop-opacity="0" />
+      <stop offset="0.45" stop-color="#84d7ad" stop-opacity="0.8" />
+      <stop offset="1" stop-color="#84d7ad" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="leftPlane" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#478564" stop-opacity="0.11" />
+      <stop offset="1" stop-color="#478564" stop-opacity="0" />
+    </linearGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.7" fill="#99d7b8" opacity=".12" />
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0.42" stop-color="white" stop-opacity="0" />
+      <stop offset="1" stop-color="white" />
+    </linearGradient>
+    <mask id="rightFade"><rect width="1200" height="300" fill="url(#fade)" /></mask>
+    <clipPath id="frame"><rect x="1" y="1" width="1198" height="298" rx="14" /></clipPath>
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" />
+    </filter>
+  </defs>
+  <rect x="0.5" y="0.5" width="1199" height="299" rx="14" fill="url(#background)" stroke="#263c30" />
+  <rect x="1" y="1" width="1198" height="298" rx="14" fill="url(#light)" />
+  <g clip-path="url(#frame)">
+    <path d="M0 0H270L106 300H0Z" fill="url(#leftPlane)" />
+    <path d="M-34 300L130 0M-4 300L160 0" fill="none" stroke="#83c6a1" stroke-width="1" opacity=".07" />
+    <rect x="40" y="67" width="2" height="166" rx="1" fill="url(#leftAccent)" />
+    <path d="M79 77H107M79 77V85M79 229V237H107" fill="none" stroke="#7aba97" stroke-width="1.2" opacity=".45" />
+    <rect width="1200" height="300" fill="url(#dots)" mask="url(#rightFade)" />
+    <g fill="none" stroke="#79b896">
+      <ellipse cx="955" cy="150" rx="188" ry="188" stroke-opacity=".09" />
+      <ellipse cx="955" cy="150" rx="235" ry="235" stroke-opacity=".06" />
+      <path d="M686 72H804L848 116M685 228H804L848 184M1010 150H1110L1158 102H1200" stroke-opacity=".14" />
+    </g>
+    <g stroke="#6dbb96" stroke-width="1.5" fill="none" opacity=".45">
+      <path id="connections" d="M907 150H840Q826 150 826 136V90Q826 76 840 76H1010Q1024 76 1024 90V136Q1024 150 1038 150H1080M907 150H840Q826 150 826 164V210Q826 224 840 224H1010Q1024 224 1024 210V164Q1024 150 1038 150" />
+    </g>
+    <use href="#connections" class="signal" fill="none" stroke="#a7f3d0" stroke-width="2" opacity=".6" />
+    <g fill="#0c241a" stroke="#3d7057" stroke-width="1">
+      <rect x="907" y="109" width="96" height="82" rx="16" />
+      <rect x="870" y="56" width="36" height="36" rx="9" />
+      <rect x="958" y="206" width="36" height="36" rx="9" />
+      <rect x="1062" y="132" width="36" height="36" rx="9" />
+    </g>
+    <rect class="ambient" x="907" y="109" width="96" height="82" rx="16" fill="none" stroke="#5ecc97" stroke-width="2" filter="url(#softGlow)" />
+    <g fill="none" stroke="#a5d9bc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M943 136L931 150L943 164M967 136L979 150L967 164M959 134L951 166" />
+      <path d="M881 69H895M881 75H895M881 81H889" />
+      <circle cx="976" cy="224" r="6" />
+      <path d="M976 214V211M976 234V237M966 224H963M986 224H989" />
+      <path d="M1074 144H1086V156H1074ZM1078 148H1082V152H1078" />
+    </g>
+    <g fill="#a7e4c3">
+      <circle cx="826" cy="116" r="2.5" />
+      <circle cx="1024" cy="192" r="2.5" />
+    </g>
+  </g>
+  <g font-family="Segoe UI,Helvetica,Arial,sans-serif">
+    <text x="76" y="143" fill="#eff5f1" font-size="58" font-weight="600" letter-spacing="-1">Pedro Yada</text>
+    <text x="79" y="188" fill="#b1c4b8" font-size="23" font-weight="400" letter-spacing="0.5">Backend Development · AI Agents</text>
+  </g>
+  <rect x="79" y="219" width="110" height="2" rx="1" fill="url(#accent)" />
+</svg>

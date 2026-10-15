@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="160" viewBox="0 0 900 160" role="img">
+  <title>GitHub Analytics — aguardando primeira atualização</title>
+  <rect width="900" height="160" rx="18" fill="#0f172a"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <text x="28" y="42" fill="#38bdf8" font-size="22" font-weight="700">GitHub Analytics</text>
+    <text x="28" y="80" fill="#e2e8f0" font-size="15">Aguardando a primeira execução da automação no GitHub.</text>
+    <text x="28" y="112" fill="#94a3b8" font-size="13">Últimos 12 meses · Total desde a criação da conta · Gráfico de atividade</text>
+  </g>
+</svg>
