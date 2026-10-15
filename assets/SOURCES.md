@@ -1,5 +1,9 @@
 # Fontes dos recursos visuais
 
+- `badges/python.svg`: badge local com logo Python do Simple Icons (https://simpleicons.org/), incorporado diretamente ao SVG.
+
+- `github-analytics.svg` e `github-analytics.en.svg`: cards personalizados com ícones próprios, gradientes, luz em movimento nas bordas, iluminação suave e entrada dos valores. Animações CSS incorporadas respeitam movimento reduzido. Gerados pelo script local com dados públicos da API GraphQL do GitHub; nenhum serviço externo de imagens é utilizado.
+
 - `badges/redis.svg`: badge local com logo Redis do Simple Icons (https://simpleicons.org/), incorporado diretamente ao SVG.
 
 - `banner.svg`: banner aprovado de Pedro Yada (anteriormente banner-v2.svg). Gradiente preto e verde, nome e subtítulo fixos e componentes conectados com iluminação e movimento discretos. Respeita preferência por movimento reduzido; sem imagens, fontes ou serviços externos.

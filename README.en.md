@@ -2,11 +2,9 @@
 
 <p align="center"><img src="assets/banner.svg" alt="Pedro Yada — Backend Development · AI Agents" width="100%" /></p>
 
-<p align="center">Programming student at <strong>Germinare Tech — Instituto J&amp;F</strong><br />Intern at PicPay · Data Analysis and Strategic Planning — Insurance<br />Working toward a career in <strong>AI Engineering</strong></p>
-
 ## About me
 
-I am Pedro Yada, a second-year student in the technical high school programming program at Germinare Tech and an intern at PicPay, where I work on data analysis within the Strategic Planning team of the Insurance business unit.
+I am Pedro Yada, a second-year student in the technical high school programming program at Germinare Tech and an intern at PicPay, a Brazilian digital bank, where I work on data analysis within the Strategic Planning team of the Insurance business unit.
 
 My development focus is building **AI systems and backend APIs**, connecting agents, tools, and databases to solve practical problems.
 
@@ -21,6 +19,7 @@ I am also interested in exploring **cybersecurity** as a new area of study.
 ### Artificial intelligence and data
 
 <p>
+<img src="assets/badges/python.svg" alt="Python" />
 <img src="assets/badges/langchain.svg" alt="LangChain" />
 <img src="assets/badges/langgraph.svg" alt="LangGraph" />
 <img src="assets/badges/postgresql.svg" alt="PostgreSQL" />
@@ -64,13 +63,13 @@ The project plans to offer drop-off location search, collection requests and tra
 
 > A platform demo will be added when available.
 
-## GitHub Analytics
+## GitHub Activity
 
 <p align="center">
-  <a href="https://github.com/yada071"><img src="assets/github-analytics.svg" alt="Contributions in the last 12 months, total since account creation, and activity calendar" width="100%" /></a>
+  <a href="https://github.com/yada071"><img src="assets/github-analytics.en.svg" alt="Last 12 months: merged pull requests authored by me, distinct PRs reviewed, and public repositories contributed to" width="100%" /></a>
 </p>
 
-<sub>Updated daily. Counts reflect contributions recognized by GitHub and visible to the query. Chart labels are in Portuguese.</sub>
+<sub>Last 12 months · Public data · Updated daily. <a href="scripts/README.md">Metric definitions (Portuguese)</a>.</sub>
 
 ---
 

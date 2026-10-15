@@ -7,6 +7,7 @@ on:
   push:
     paths:
       - scripts/github_analytics.py
+      - scripts/test_github_analytics.py
       - .github/workflows/analytics.yml
 
 permissions:
@@ -26,6 +27,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+      - name: Verificar cálculos e renderização
+        run: python -B -m unittest discover -s scripts -p 'test_*.py'
       - name: Gerar painel
         env:
           GH_TOKEN: ${{ github.token }}
@@ -35,7 +38,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add assets/github-analytics.svg
+          git add assets/github-analytics.svg assets/github-analytics.en.svg
           if ! git diff --cached --quiet; then
             git commit -m 'docs: atualiza GitHub Analytics'
             git push
