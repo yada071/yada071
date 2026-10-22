@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="256" viewBox="0 0 1200 256" role="img" aria-labelledby="title desc">
 <title id="title">GitHub Activity</title>
-<desc id="desc">Public activity · Last 12 months. Updated 21/10/2026 · UTC.</desc>
+<desc id="desc">Public activity · Last 12 months. Updated 22/10/2026 · UTC.</desc>
 <style>
           .edge-light { stroke-dasharray: 75 1085; animation: edge-travel 22s linear infinite; }
           .facet { animation: facet-glow 10s ease-in-out infinite; }
@@ -24,7 +24,7 @@
 <text x="25" y="35" fill="#729983" font-family="Consolas,monospace" font-size="10" letter-spacing="2">01 / GITHUB</text>
 <path class="facet" d="M297 0 383 86v-46L343 0z" fill="#76d3a0" opacity=".025" style="animation-delay:-0s"/>
 <g class="icon-light" style="animation-delay:-0s"><g transform="translate(320,27) scale(.8)" fill="none" stroke="#8bc5a4" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="5" cy="5" r="3"/><circle cx="5" cy="23" r="3"/><circle cx="23" cy="23" r="3"/><path d="M5 8v12M12 5c11 0 11 8 11 15M12 5l4-4M12 5l4 4"/></g></g>
-<text class="metric" style="animation-delay:0.00s" x="25" y="103" fill="#eaf5ee" font-size="51" font-weight="600" letter-spacing="-1">28</text>
+<text class="metric" style="animation-delay:0.00s" x="25" y="103" fill="#eaf5ee" font-size="51" font-weight="600" letter-spacing="-1">31</text>
 <text x="26" y="141" fill="#c0d8ca" font-size="18" font-weight="600">Merged pull requests</text>
 <text x="26" y="171" fill="#819f8d" font-size="13">Authored by me</text>
 </g>
@@ -50,7 +50,7 @@
 <text x="26" y="141" fill="#c0d8ca" font-size="18" font-weight="600">Repositories contributed to</text>
 <text x="26" y="171" fill="#819f8d" font-size="13">Commits, issues, PRs and reviews</text>
 </g>
-<text x="2" y="225" fill="#8fae9c" font-size="12">Public activity · Last 12 months · 22/10/2025 — 21/10/2026</text>
-<text x="1198" y="225" text-anchor="end" fill="#8fae9c" font-size="12">Updated 21/10/2026 · UTC</text>
+<text x="2" y="225" fill="#8fae9c" font-size="12">Public activity · Last 12 months · 23/10/2025 — 22/10/2026</text>
+<text x="1198" y="225" text-anchor="end" fill="#8fae9c" font-size="12">Updated 22/10/2026 · UTC</text>
 <text x="2" y="248" fill="#75917f" font-size="11">@yada071</text>
 </g></svg>
