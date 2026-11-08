@@ -47,24 +47,22 @@ Também tenho interesse em explorar **cybersecurity** como uma nova área de est
 <img src="assets/badges/linux.svg" alt="Linux" />
 </p>
 
-## Projeto em desenvolvimento
+## Projeto em destaque
 
 ### 🌱 OLIUS — Óleo Amigo
 
 Plataforma web e mobile que conecta cidadãos, estabelecimentos comerciais, pontos de entrega e responsáveis pela coleta para facilitar o descarte correto do óleo de cozinha usado.
 
-O projeto prevê localização de pontos de entrega, solicitação e acompanhamento de coletas, gamificação, indicadores e certificados ambientais.
+Desenvolvido em equipe como projeto interdisciplinar da Germinare Tech, o OLIUS tem como foco conectar o descarte à coleta e incentivar a participação na destinação correta do óleo usado.
 
 | Contexto | Minha participação | Status |
 | :--- | :--- | :--- |
-| Projeto interdisciplinar em equipe, na Germinare Tech | Banco de dados PostgreSQL e API com Spring Boot | Em desenvolvimento |
+| Projeto interdisciplinar em equipe, na Germinare Tech | Banco de dados PostgreSQL e API com Spring Boot | Concluído |
 
 <p>
 <a href="https://github.com/Olius-Inter/API_Olius"><img src="assets/badges/ver-api.svg" alt="Ver API" /></a>
 <a href="https://github.com/Olius-Inter/DB_Segundo"><img src="assets/badges/ver-banco.svg" alt="Ver banco de dados" /></a>
 </p>
-
-> A demonstração da plataforma será adicionada quando estiver disponível.
 
 ## Atividade no GitHub
 

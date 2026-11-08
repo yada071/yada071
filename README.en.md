@@ -47,21 +47,19 @@ I am also interested in exploring **cybersecurity** as a new area of study.
 <img src="assets/badges/linux.svg" alt="Linux" />
 </p>
 
-## Project in development
+## Featured project
 
 ### 🌱 OLIUS — Óleo Amigo
 
 A web and mobile platform connecting residents, businesses, drop-off locations, and collection operators to make the proper disposal of used cooking oil easier.
 
-The project plans to offer drop-off location search, collection requests and tracking, gamification, indicators, and environmental certificates.
+Developed as a team-based interdisciplinary project at Germinare Tech, OLIUS focuses on connecting disposal and collection and encouraging participation in the proper disposal of used cooking oil.
 
 | Context | My contribution | Status |
 | :--- | :--- | :--- |
-| Team-based interdisciplinary project at Germinare Tech | PostgreSQL database and Spring Boot API development | In development |
+| Team-based interdisciplinary project at Germinare Tech | PostgreSQL database and Spring Boot API development | Completed |
 
 [View API](https://github.com/Olius-Inter/API_Olius) · [View database](https://github.com/Olius-Inter/DB_Segundo)
-
-> A platform demo will be added when available.
 
 ## GitHub Activity
 
